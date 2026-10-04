@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site NFC</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+
+
+</head>
+
+<div>
+    <header class="cabecalho">
+        <h1 class="titulo-principal" id="texto"><strong> Seja Bem-vindo! o/ </strong></h1>
+    </header>
+
+    <audio autoplay loop volume="0.3" style="display: none;">
+        <source src="assets/audio/chill.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        const audio = document.querySelector('audio');
+        audio.volume = 0.3;
+        document.addEventListener('click', function() {
+        var audio = document.querySelector('audio');
+        if (audio.paused) {
+        audio.play();
+        }
+        }, { once: true });
+    </script>
+</div>
+
+<br>
+
+<body class="corpo">
+    
+    <main>
+        <section class="esqueleto_principal">
+            <div class="titulo-secundario">
+                <h2 id="texto"> Links para acessar meus perfils </h2>
+            </div>
+
+                <article class="menu">
+                    <a href="https://github.com/caettno" class="botao_github" id="botao">Perfil do Github</a><br>
+                    <a href="https://www.linkedin.com/in/igor-caetano-570a143b4/" class="botao_linkedin" id="botao">Perfil do Linkedin</a><br>
+                    <a href="http://lattes.cnpq.br/5097097481693068" class="botao_lattes" id="botao">Perfil do Lattes</a><br>
+                </article>
+
+        </section>
+
+        <section class="esqueleto_principal">
+            <div class="titulo-secundario">
+             <h2 class="texto-laranja" id="texto">Sobre Mim</h2>
+            </div>
+            <div class="conteudo-sobre">
+             <p class="texto-laranja" id="texto" style="text-align: center;">Meu nome é Igor Caetano, estudante do 1° período de Engenharia de Software da PUC Minas e faço da parte COMP, empresa jr da PUC. Atualmente desenvolvo alguns projetos em Python, HTML, CSS e Javascript com o intuito de aprimorar as minhas habilidades técnias.</p>
+            </div>
+        </section>
+
+    </main>
+
+     <footer>
+         <section class="creditos" id="texto">
+         <p><strong>arte: @waneella</strong></p>
+         </section>
+    </footer>
+
+</body>
+</html>
