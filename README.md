@@ -1,6 +1,6 @@
 # Meu-NFC
 
-![Prototipo - 1 ](assets\imgs\meu_nfc.png)
+![Protótipo - 1](assets/imgs/meu_nfc.png)
 
 ## Resumo
 
